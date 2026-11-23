@@ -76,3 +76,26 @@ npm run dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
+
+```
+.
+├── README.md                # README file
+├── next.config.js           # Next JS configuration
+├── public                   # Public folder
+│   └── assets
+│       └── images           # Image used by default template
+├── src
+│   ├── layout               # Atomic layout components
+│   ├── pages                # Next JS pages
+│   ├── styles               # PostCSS style folder with Tailwind
+│   ├── templates            # Default template
+│   └── utils                # Utility folder
+├── tailwind.config.js       # Tailwind CSS configuration
+└── tsconfig.json            # TypeScript configuration
+```
+
+### Customization
+
+You can easily configure Next js Boilerplate. Please change the following file:
+
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
